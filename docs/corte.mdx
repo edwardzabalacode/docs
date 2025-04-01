@@ -1,0 +1,59 @@
+---
+title: 'Realizar el Corte'
+description: 'Aprende a realizar el corte de puntos de manera eficiente y precisa'
+---
+
+## Realizar el Corte de Puntos
+
+El corte de puntos es una operación fundamental en el sistema que permite registrar y validar los puntos acumulados por los operadores.
+
+### Proceso de Corte
+
+1. **Descarga de Archivos**
+   - Ingresa a los paneles de cada proyecto
+   - Descarga los archivos CSV del mes actual
+   - Los archivos deben seguir el siguiente formato de nomenclatura:
+     ```
+     [PROYECTO]_[AÑO]_[MES]_[DÍA]_[TIPO]_[TURNO].csv
+     ```
+   - Proyectos soportados:
+     - Amolatina = AML
+     - Prime = PRIME
+   - Ejemplos de nombres de archivo:
+     ```
+     AML_2025_04_01_PRINCIPAL_TARDE.csv
+     AML_2025_04_01_SECUNDARIO_TARDE.csv
+     PRIME_2025_04_01_PRINCIPAL_TARDE.csv
+     PRIME_2025_04_01_SECUNDARIO_TARDE.csv
+     ```
+
+2. **Carga de Archivos**
+   - Ingresa al módulo de cortes
+   - Selecciona todos los archivos correspondientes
+   - Verifica que los nombres de los archivos cumplan con el formato requerido
+   - Sube los archivos al sistema
+
+3. **Selección de Operadores**
+   - Selecciona el turno correspondiente
+   - Carga los operadores predeterminados (ver [Configuración de Perfiles Predeterminados](/docs/perfiles))
+   - Para agregar operadores de otros turnos:
+     1. Utiliza el input de "Agregar Operador"
+     2. Selecciona el operador de la lista desplegable
+     3. Haz clic en el botón "Agregar"
+
+4. **Verificación Final**
+   - Realiza un doble check de los operadores seleccionados
+   - Verifica que cada operador tenga su perfil correspondiente
+   - Asegúrate que no falten operadores del turno
+   - Confirma que los operadores adicionales estén correctamente agregados
+
+5. **Procesamiento**
+   - Haz clic en el botón "Enviar"
+   - Espera el mensaje de confirmación de carga exitosa
+   - Verifica que no haya errores en el proceso
+
+### Consideraciones Importantes
+
+- Asegúrate de tener todos los archivos necesarios antes de iniciar el proceso
+- Verifica que los nombres de los archivos cumplan exactamente con el formato requerido
+- Es crucial realizar la verificación final de operadores para evitar errores
